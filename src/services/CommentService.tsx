@@ -1,4 +1,4 @@
-import axios, { AxiosError } from "axios";
+import axios, { AxiosError} from "axios";
 import { baseUrl } from "../constantes/BASE_URL";
 
 interface Headers {

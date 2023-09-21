@@ -1,27 +1,52 @@
-# React + TypeScript + Vite
+## 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚩 [Projeto Labeddit - Backend](https://github.com/Orcisantos76/labe-front)
 
-Currently, two official plugins are available:
+## Funcionalidades do projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Login Page
+- Signup Page
+- Feed Page
+- Post's comments Page
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Link Labeddit Surg
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+https://labedditorcifaruqi.surge.sh
+
+## Layout
+
+<div class="fex">
+<img src="./src/assets/loginPage.png" width="200"  />
+<img src="./src/assets/signupPage.png" width="200"  />
+<img src="./src/assets/feedPage.png" width="200"  />
+<img src="./src/assets/postcommentsPage.png" width="200"  />
+</div>
+
+Este projeto foi construído a partir do zero, incluindo a criação das páginas de Login, Cadastro, Feed e Comentários de Posts. Além disso, para alimentar a plataforma, desenvolvemos nossa própria API personalizada, exclusivamente para este projeto.
+
+## Comandos de instalação do projeto
+
+```bash
+# Clone this repository
+$ git clone linkrepo
+
+# Acesse the folder in you terminal
+$ cd labeddit-fullstack-project-frontend
+
+# Install dependêncies
+$ npm install
+
+# Execute the application
+$ npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Tecnologias abordadas
+
+1. [React](https://pt-br.reactjs.org/)
+2. [React Router](https://reactrouter.com/en/main)
+3. [Tailwind](https://tailwindcss.com/)
+4. [Global Context](https://pt-br.reactjs.org/docs/context.html)
+5. [Axios](https://axios-http.com/docs/intro)
+
